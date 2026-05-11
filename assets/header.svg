@@ -78,10 +78,8 @@
     </g>
 
     <g transform="translate(66 52)">
-      <text x="0" y="42" fill="#8B949E" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="2">DATA · AI · BI · AUTOMATION</text>
       <text x="0" y="112" fill="#FFFFFF" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="64" font-weight="800" filter="url(#textGlow)">Claudia Trejo</text>
-      <text x="3" y="153" fill="url(#neon)" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="24" font-weight="700">Analista de Datos | Inteligencia Artificial</text>
-      <text x="3" y="188" fill="#C9D1D9" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="18">Transformando datos en decisiones claras, automatizadas y estratégicas.</text>
+      <text x="3" y="153" fill="#03CFDA" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="24" font-weight="700">Analista de Datos | Inteligencia Artificial</text>
     </g>
 
     <path d="M0 250C196 285 389 267 543 250C708 232 858 233 1000 260V280H0V250Z" fill="url(#neon)" opacity="0.2"/>
