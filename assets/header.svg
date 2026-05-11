@@ -1,0 +1,90 @@
+<svg width="1000" height="280" viewBox="0 0 1000 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Claudia Trejo - Analista de Datos e IA</title>
+  <desc id="desc">Header neon con visualizaciones de datos, gradientes violeta, cyan y magenta.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1000" y2="280" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0D1117"/>
+      <stop offset="0.36" stop-color="#191724"/>
+      <stop offset="0.66" stop-color="#161B2F"/>
+      <stop offset="1" stop-color="#0D1117"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="190" y1="44" x2="812" y2="206" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7C3AED"/>
+      <stop offset="0.5" stop-color="#00F5FF"/>
+      <stop offset="1" stop-color="#FF2E9F"/>
+    </linearGradient>
+    <linearGradient id="line" x1="145" y1="179" x2="864" y2="119" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C3AED"/>
+      <stop offset="0.52" stop-color="#00F5FF"/>
+      <stop offset="1" stop-color="#FF2E9F"/>
+    </linearGradient>
+    <radialGradient id="cyanGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(747 66) rotate(139) scale(290 140)">
+      <stop stop-color="#00F5FF" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#00F5FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="pinkGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(195 222) rotate(-25) scale(310 130)">
+      <stop stop-color="#FF2E9F" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#FF2E9F" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-30%" y="-60%" width="160%" height="220%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.49 0 0 0 0 0.23 0 0 0 0 0.93 0 0 0 0.95 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="textGlow" x="-10%" y="-40%" width="120%" height="180%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0 0 0 0 0 0.96 0 0 0 0 1 0 0 0 0.7 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="round">
+      <rect width="1000" height="280" rx="26"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="1000" height="280" fill="url(#bg)"/>
+    <rect width="1000" height="280" fill="url(#cyanGlow)"/>
+    <rect width="1000" height="280" fill="url(#pinkGlow)"/>
+
+    <g opacity="0.18">
+      <path d="M0 53H1000M0 107H1000M0 161H1000M0 215H1000" stroke="#C9D1D9"/>
+      <path d="M92 0V280M201 0V280M310 0V280M419 0V280M528 0V280M637 0V280M746 0V280M855 0V280" stroke="#C9D1D9"/>
+    </g>
+
+    <path d="M97 202C163 151 205 178 255 139C307 98 356 121 406 92C468 56 526 73 584 118C641 162 696 150 745 112C798 70 845 83 908 48" stroke="url(#line)" stroke-width="4" stroke-linecap="round" filter="url(#softGlow)"/>
+    <path d="M97 229C172 212 231 213 298 196C383 174 461 156 539 177C630 201 686 196 760 166C820 142 863 139 908 126" stroke="#00F5FF" stroke-width="2" stroke-linecap="round" opacity="0.35"/>
+
+    <g opacity="0.92">
+      <circle cx="97" cy="202" r="6" fill="#7C3AED"/>
+      <circle cx="255" cy="139" r="6" fill="#00F5FF"/>
+      <circle cx="406" cy="92" r="6" fill="#FF2E9F"/>
+      <circle cx="584" cy="118" r="6" fill="#7C3AED"/>
+      <circle cx="745" cy="112" r="6" fill="#00F5FF"/>
+      <circle cx="908" cy="48" r="6" fill="#FF2E9F"/>
+    </g>
+
+    <g transform="translate(724 148)" opacity="0.82">
+      <rect x="0" y="54" width="26" height="42" rx="7" fill="#7C3AED"/>
+      <rect x="41" y="23" width="26" height="73" rx="7" fill="#00F5FF"/>
+      <rect x="82" y="42" width="26" height="54" rx="7" fill="#FF2E9F"/>
+      <rect x="123" y="0" width="26" height="96" rx="7" fill="#7C3AED"/>
+      <rect x="164" y="30" width="26" height="66" rx="7" fill="#00F5FF"/>
+    </g>
+
+    <g transform="translate(66 52)">
+      <text x="0" y="42" fill="#8B949E" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="2">DATA · AI · BI · AUTOMATION</text>
+      <text x="0" y="112" fill="#FFFFFF" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="64" font-weight="800" filter="url(#textGlow)">Claudia Trejo</text>
+      <text x="3" y="153" fill="url(#neon)" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="24" font-weight="700">Analista de Datos | Inteligencia Artificial</text>
+      <text x="3" y="188" fill="#C9D1D9" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="18">Transformando datos en decisiones claras, automatizadas y estratégicas.</text>
+    </g>
+
+    <path d="M0 250C196 285 389 267 543 250C708 232 858 233 1000 260V280H0V250Z" fill="url(#neon)" opacity="0.2"/>
+    <rect x="1.5" y="1.5" width="997" height="277" rx="24.5" stroke="url(#neon)" stroke-width="3" opacity="0.7"/>
+  </g>
+</svg>
