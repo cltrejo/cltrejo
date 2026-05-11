@@ -1,6 +1,17 @@
-# 👋 Hola, soy Claudia Trejo
+<div align="center">
 
-## 💻 Ingeniera en Informática | Analista de Datos
+![Header](https://capsule-render.vercel.app/api?type=venom&height=230&section=header&color=0:0D1117,30:7C3AED,65:00F5FF,100:FF2E9F&text=Claudia%20Trejo&fontColor=FFFFFF&fontSize=52&fontAlignY=38&desc=Analista%20de%20Datos%20%7C%20%IA%&descAlignY=62&descSize=18&animation=twinkling)
+
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Claudia%20Trejo-7aa2f7?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=191724)](https://www.linkedin.com/in/claudia-trejo-882429241/)
+[![GitHub](https://img.shields.io/badge/GitHub-cltrejo-bb9af7?style=for-the-badge&logo=github&logoColor=white&labelColor=191724)](https://github.com/cltrejo)
+
+</div>
+<picture> <source srcset="https://sakura-garden.vercel.app/api/svg?username=cltrejo&theme=dark" media="(prefers-color-scheme: dark)" /> <source srcset="https://sakura-garden.vercel.app/api/svg?username=cltrejo&theme=light" media="(prefers-color-scheme: light)" /> <img src="https://sakura-garden.vercel.app/api/svg?username=cltrejo&theme=light" width="1000" alt="sakura contributions" /> </picture>
+
+---
+
+## ✨ Sobre mí
 
 Soy Ingeniera en Informática con enfoque en **ciencia de datos, inteligencia artificial, automatización de procesos y business intelligence**.  
 Me interesa transformar datos en información útil para la toma de decisiones, creando soluciones que automaticen procesos, optimicen reportes y permitan visualizar indicadores de forma clara y estratégica.
@@ -11,13 +22,23 @@ Actualmente trabajo con herramientas y tecnologías orientadas al análisis de d
 
 ## 🚀 Áreas de interés
 
-- 📊 Análisis de datos y visualización de KPIs
-- 🧠 Machine Learning e Inteligencia Artificial
-- ⚙️ Automatización de procesos con Python
-- 🗄️ SQL Server y modelamiento de datos
-- 📈 Dashboards en Power BI y aplicaciones web
-- 🔄 Procesos ETL y transformación de datos
-- 🌐 Desarrollo backend y frontend para soluciones de datos
+<table>
+  <tr>
+    <td bgcolor="#191724">📊 Análisis de datos y visualización de KPIs</td>
+    <td bgcolor="#191724">🧠 Machine Learning e Inteligencia Artificial</td>
+  </tr>
+  <tr>
+    <td bgcolor="#191724">⚙️ Automatización de procesos con Python</td>
+    <td bgcolor="#191724">🗄️ SQL Server y modelamiento de datos</td>
+  </tr>
+  <tr>
+    <td bgcolor="#191724">📈 Dashboards en Power BI y aplicaciones web</td>
+    <td bgcolor="#191724">🔄 Procesos ETL y transformación de datos</td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center" bgcolor="#191724">🌐 Desarrollo backend y frontend para soluciones de datos</td>
+  </tr>
+</table>
 
 ---
 
@@ -46,10 +67,22 @@ Actualmente trabajo con herramientas y tecnologías orientadas al análisis de d
 
 ---
 
-## 📫 Conecta conmigo
+## 📊 GitHub Stats
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Claudia%20Trejo-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/claudia-trejo-882429241/)
-[![GitHub](https://img.shields.io/badge/GitHub-claudiatrejo2039-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/claudiatrejo2039)
+<div align="center">
+
+<table>
+  <tr>
+    <td>
+      <img height="155" src="https://github-readme-stats.shion.dev/api?username=cltrejo&theme=neon&hide_border=true&include_all_commits=true&count_private=true" alt="Estadísticas de GitHub de Claudia Trejo" />
+    </td>
+    <td>
+      <img height="155" src="https://github-readme-stats.shion.dev/api/top-langs/?username=cltrejo&theme=neon&hide_border=true&include_all_commits=true&count_private=true&layout=compact" alt="Lenguajes más usados por Claudia Trejo" />
+    </td>
+  </tr>
+</table>
+
+</div>
 
 ---
 
