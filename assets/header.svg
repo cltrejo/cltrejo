@@ -1,42 +1,26 @@
 <svg width="1000" height="280" viewBox="0 0 1000 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Claudia Trejo - Analista de Datos e IA</title>
-  <desc id="desc">Header neon con visualizaciones de datos, gradientes violeta, cyan y magenta.</desc>
+  <desc id="desc">Header con estilo japones, flores de sakura y visualizaciones de datos.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1000" y2="280" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0D1117"/>
-      <stop offset="0.36" stop-color="#191724"/>
-      <stop offset="0.66" stop-color="#161B2F"/>
-      <stop offset="1" stop-color="#0D1117"/>
+      <stop offset="0" stop-color="#120B17"/>
+      <stop offset="0.32" stop-color="#1C1226"/>
+      <stop offset="0.68" stop-color="#122338"/>
+      <stop offset="1" stop-color="#0E1626"/>
     </linearGradient>
-    <linearGradient id="neon" x1="190" y1="44" x2="812" y2="206" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#7C3AED"/>
-      <stop offset="0.5" stop-color="#00F5FF"/>
-      <stop offset="1" stop-color="#FF2E9F"/>
+    <linearGradient id="water" x1="0" y1="230" x2="1000" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8FB8" stop-opacity="0.08"/>
+      <stop offset="0.5" stop-color="#6EE7F9" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#FF4D6D" stop-opacity="0.09"/>
     </linearGradient>
-    <linearGradient id="line" x1="145" y1="179" x2="864" y2="119" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#7C3AED"/>
-      <stop offset="0.52" stop-color="#00F5FF"/>
-      <stop offset="1" stop-color="#FF2E9F"/>
+    <linearGradient id="border" x1="0" y1="0" x2="1000" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8FB8"/>
+      <stop offset="0.52" stop-color="#6EE7F9"/>
+      <stop offset="1" stop-color="#FF4D6D"/>
     </linearGradient>
-    <radialGradient id="cyanGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(747 66) rotate(139) scale(290 140)">
-      <stop stop-color="#00F5FF" stop-opacity="0.34"/>
-      <stop offset="1" stop-color="#00F5FF" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="pinkGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(195 222) rotate(-25) scale(310 130)">
-      <stop stop-color="#FF2E9F" stop-opacity="0.28"/>
-      <stop offset="1" stop-color="#FF2E9F" stop-opacity="0"/>
-    </radialGradient>
-    <filter id="softGlow" x="-30%" y="-60%" width="160%" height="220%" color-interpolation-filters="sRGB">
-      <feGaussianBlur stdDeviation="8" result="blur"/>
-      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.49 0 0 0 0 0.23 0 0 0 0 0.93 0 0 0 0.95 0"/>
-      <feMerge>
-        <feMergeNode/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
     <filter id="textGlow" x="-10%" y="-40%" width="120%" height="180%" color-interpolation-filters="sRGB">
-      <feGaussianBlur stdDeviation="3.5" result="blur"/>
-      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0 0 0 0 0 0.96 0 0 0 0 1 0 0 0 0.7 0"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 1 0 0 0 0 0.56 0 0 0 0 0.76 0 0 0 0.75 0"/>
       <feMerge>
         <feMergeNode/>
         <feMergeNode in="SourceGraphic"/>
@@ -45,44 +29,69 @@
     <clipPath id="round">
       <rect width="1000" height="280" rx="26"/>
     </clipPath>
+    <g id="petal">
+      <path d="M0 -9C6 -8 10 -3 8 3C6 9 0 12 -5 8C-10 4 -8 -5 0 -9Z" fill="#FFD1E0"/>
+      <path d="M0 -7C4 -5 6 -1 5 3C4 7 0 9 -3 6" stroke="#FF8FB8" stroke-width="1" stroke-linecap="round" opacity="0.7"/>
+    </g>
+    <g id="flower">
+      <use href="#petal" transform="rotate(0) translate(0 -9)"/>
+      <use href="#petal" transform="rotate(72) translate(0 -9)"/>
+      <use href="#petal" transform="rotate(144) translate(0 -9)"/>
+      <use href="#petal" transform="rotate(216) translate(0 -9)"/>
+      <use href="#petal" transform="rotate(288) translate(0 -9)"/>
+      <circle r="3.2" fill="#FFE9A8"/>
+    </g>
   </defs>
 
   <g clip-path="url(#round)">
     <rect width="1000" height="280" fill="url(#bg)"/>
-    <rect width="1000" height="280" fill="url(#cyanGlow)"/>
-    <rect width="1000" height="280" fill="url(#pinkGlow)"/>
 
-    <g opacity="0.18">
-      <path d="M0 53H1000M0 107H1000M0 161H1000M0 215H1000" stroke="#C9D1D9"/>
-      <path d="M92 0V280M201 0V280M310 0V280M419 0V280M528 0V280M637 0V280M746 0V280M855 0V280" stroke="#C9D1D9"/>
+    <circle cx="805" cy="72" r="48" fill="#FF4D6D" opacity="0.72"/>
+    <circle cx="805" cy="72" r="70" stroke="#FFD1E0" stroke-width="1" opacity="0.18"/>
+
+    <g opacity="0.13">
+      <path d="M0 54H1000M0 108H1000M0 162H1000M0 216H1000" stroke="#F8D7E6"/>
+      <path d="M92 0V280M201 0V280M310 0V280M419 0V280M528 0V280M637 0V280M746 0V280M855 0V280" stroke="#F8D7E6"/>
     </g>
 
-    <path d="M97 202C163 151 205 178 255 139C307 98 356 121 406 92C468 56 526 73 584 118C641 162 696 150 745 112C798 70 845 83 908 48" stroke="url(#line)" stroke-width="4" stroke-linecap="round" filter="url(#softGlow)"/>
-    <path d="M97 229C172 212 231 213 298 196C383 174 461 156 539 177C630 201 686 196 760 166C820 142 863 139 908 126" stroke="#00F5FF" stroke-width="2" stroke-linecap="round" opacity="0.35"/>
+    <path d="M64 236C165 219 229 232 333 211C450 187 546 194 647 218C765 246 884 226 1000 238V280H0V244C21 241 42 238 64 236Z" fill="url(#water)"/>
+    <path d="M525 218C575 165 611 149 655 109C704 151 738 170 779 218H525Z" fill="#F8D7E6" opacity="0.11"/>
+    <path d="M604 151L655 109L705 157C676 146 648 151 604 151Z" fill="#FFD1E0" opacity="0.34"/>
 
-    <g opacity="0.92">
-      <circle cx="97" cy="202" r="6" fill="#7C3AED"/>
-      <circle cx="255" cy="139" r="6" fill="#00F5FF"/>
-      <circle cx="406" cy="92" r="6" fill="#FF2E9F"/>
-      <circle cx="584" cy="118" r="6" fill="#7C3AED"/>
-      <circle cx="745" cy="112" r="6" fill="#00F5FF"/>
-      <circle cx="908" cy="48" r="6" fill="#FF2E9F"/>
+    <g transform="translate(711 151)" opacity="0.88">
+      <rect x="10" y="64" width="24" height="32" rx="6" fill="#FF8FB8"/>
+      <rect x="49" y="31" width="24" height="65" rx="6" fill="#6EE7F9"/>
+      <rect x="88" y="49" width="24" height="47" rx="6" fill="#FFD1E0"/>
+      <rect x="127" y="15" width="24" height="81" rx="6" fill="#FF4D6D"/>
+      <rect x="166" y="37" width="24" height="59" rx="6" fill="#6EE7F9"/>
     </g>
 
-    <g transform="translate(724 148)" opacity="0.82">
-      <rect x="0" y="54" width="26" height="42" rx="7" fill="#7C3AED"/>
-      <rect x="41" y="23" width="26" height="73" rx="7" fill="#00F5FF"/>
-      <rect x="82" y="42" width="26" height="54" rx="7" fill="#FF2E9F"/>
-      <rect x="123" y="0" width="26" height="96" rx="7" fill="#7C3AED"/>
-      <rect x="164" y="30" width="26" height="66" rx="7" fill="#00F5FF"/>
+    <g opacity="0.95">
+      <path d="M616 7C668 25 712 35 770 37C824 39 874 28 936 8" stroke="#4A2C2A" stroke-width="8" stroke-linecap="round"/>
+      <path d="M627 17C680 38 725 48 786 49C836 50 889 41 949 21" stroke="#7A453F" stroke-width="4" stroke-linecap="round"/>
+      <use href="#flower" transform="translate(664 30) scale(0.82) rotate(10)"/>
+      <use href="#flower" transform="translate(725 43) scale(0.72) rotate(-18)"/>
+      <use href="#flower" transform="translate(789 45) scale(0.84) rotate(22)"/>
+      <use href="#flower" transform="translate(870 34) scale(0.7) rotate(-12)"/>
+      <use href="#flower" transform="translate(922 21) scale(0.58) rotate(18)"/>
+    </g>
+
+    <g opacity="0.86">
+      <use href="#petal" transform="translate(574 65) rotate(35) scale(0.62)"/>
+      <use href="#petal" transform="translate(624 104) rotate(-23) scale(0.5)"/>
+      <use href="#petal" transform="translate(690 91) rotate(18) scale(0.44)"/>
+      <use href="#petal" transform="translate(777 128) rotate(-35) scale(0.5)"/>
+      <use href="#petal" transform="translate(926 104) rotate(30) scale(0.45)"/>
+      <use href="#petal" transform="translate(892 213) rotate(-12) scale(0.42)"/>
     </g>
 
     <g transform="translate(66 52)">
       <text x="0" y="112" fill="#FFFFFF" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="64" font-weight="800" filter="url(#textGlow)">Claudia Trejo</text>
-      <text x="3" y="153" fill="#03CFDA" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="24" font-weight="700">Analista de Datos | Inteligencia Artificial</text>
+      <text x="3" y="153" fill="#FFD1E0" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="24" font-weight="700">Analista de Datos | Inteligencia Artificial</text>
+      <path d="M6 170H430" stroke="#FF8FB8" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
     </g>
 
-    <path d="M0 250C196 285 389 267 543 250C708 232 858 233 1000 260V280H0V250Z" fill="url(#neon)" opacity="0.2"/>
-    <rect x="1.5" y="1.5" width="997" height="277" rx="24.5" stroke="url(#neon)" stroke-width="3" opacity="0.7"/>
+    <path d="M0 250C196 285 389 267 543 250C708 232 858 233 1000 260V280H0V250Z" fill="url(#border)" opacity="0.16"/>
+    <rect x="1.5" y="1.5" width="997" height="277" rx="24.5" stroke="url(#border)" stroke-width="3" opacity="0.72"/>
   </g>
 </svg>
